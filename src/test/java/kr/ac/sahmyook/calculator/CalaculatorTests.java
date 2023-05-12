@@ -6,23 +6,16 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 public class CalaculatorTests {
-    @DisplayName("초기상태 확인")
-    @Test
-    public void testgetSubtraction() {
-        Calculator calculator = new Calculator();
-
-        int subtraction = calculator.getSubtraction();
-    }
 
     @DisplayName("연산 시작")
     @Test
     public void testSubtractionOperations() {
         Calculator calculator = new Calculator();
 
-        calculator.subtractionoperations( 3000, 1500);
-        int subtraction = calculator.getSubtraction();
+        calculator.subtraction( 3000, 1500);
+        int div = calculator.getDiv();
 
-        Assertions.assertEquals(1500, subtraction);
+        Assertions.assertEquals(1500, div);
     }
 
 }
