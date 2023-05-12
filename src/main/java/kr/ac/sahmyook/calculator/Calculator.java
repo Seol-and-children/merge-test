@@ -7,7 +7,7 @@ public class Calculator {
     }
     int div =0;
     public int subtraction(int num1, int num2) {
-        this.div =  ( a - b );
+        this.div =  ( num1 - num2 );
         retrun div;
     }
 }
