@@ -5,12 +5,14 @@ public class Calculator {
     public static void main(String[] args) {
 
     }
-    private int div;
-    public int getDiv() {
-        return div;
-    }
-    public void Subtraction(int num1, int num2) {
-        this.div =  ( num1 - num2 );
+    private int subtraction;
+
+    public int getSubtraction() {
+        return subtraction;
     }
 
+
+    public void subtractionoperations(int a, int b) {
+        this.subtraction =  ( a - b );
+    }
 }
