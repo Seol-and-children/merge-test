@@ -16,4 +16,13 @@ public class CalculatorTests {
 
         Assertions.assertEquals(10, multi);
     }
+  
+  @DisplayName("더하기 프로그램")
+    @Test
+    public void testplus() {
+        Calculator calculator = new Calculator();
+        int sum = calculator.plus(1,2);
+        Assertions.assertEquals(3, sum);
+
+    }
 }
