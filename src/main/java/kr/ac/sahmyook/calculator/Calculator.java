@@ -12,7 +12,7 @@ public class Calculator {
         int num2 = sc.nextInt();
 
         Calculator cal = new Calculator();
-        System.out.println(cal.multiply(num1, num2));   // 곱하기
+        System.out.println("곱하기" + cal.multiply(num1, num2));   // 곱하기
     }
 
     public int multiply(int num1, int num2) {
