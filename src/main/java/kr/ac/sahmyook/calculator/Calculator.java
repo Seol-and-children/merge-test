@@ -5,14 +5,8 @@ public class Calculator {
     public static void main(String[] args) {
 
     }
-    private int subtraction;
-
-    public int getSubtraction() {
-        return subtraction;
-    }
-
-
-    public void subtractionoperations(int a, int b) {
+ 
+    public void subtraction(int num1, int num2) {
         this.subtraction =  ( a - b );
     }
 }
