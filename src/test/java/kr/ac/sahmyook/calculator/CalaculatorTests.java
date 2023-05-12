@@ -14,7 +14,6 @@ public class CalaculatorTests {
 
         calculator.Subtraction( 3000, 1500);
         int div = calculator.getDiv();
-
         Assertions.assertEquals(1500, div);
     }
 
