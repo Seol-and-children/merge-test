@@ -5,8 +5,9 @@ public class Calculator {
     public static void main(String[] args) {
 
     }
- 
-    public void subtraction(int num1, int num2) {
-        this.subtraction =  ( a - b );
+    int div =0;
+    public int subtraction(int num1, int num2) {
+        this.div =  ( a - b );
+        retrun div;
     }
 }
