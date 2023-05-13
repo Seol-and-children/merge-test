@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Scanner;
 
-public class calculatorTest {
+public class calculatorTests {
     @DisplayName("나눗셈 연산 확인")
     @Test
     public void testdivide(){
