@@ -6,8 +6,18 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 public class CalaculatorTests {
+    @DisplayName("곱하기 되는지 확인")
+    @Test
+    public void testMultiply() {
+        Calculator cal = new Calculator();
 
-    @DisplayName("연산 시작")
+        int num1 = 2;
+        int num2 = 5;
+        int multi = cal.multiply(num1, num2);
+
+        Assertions.assertEquals(10, multi);
+        }
+    @DisplayName("빼기 연산 시작")
     @Test
     public void testSubtractionOperations() {
         Calculator calculator = new Calculator();

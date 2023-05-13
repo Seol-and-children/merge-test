@@ -53,12 +53,12 @@ public class Calculator {
 
 
     public int subtraction(int num1, int num2) {
-        int sub = num1+ num2;
+        int sub = num1-num2;
         System.out.println("두 수의 차 : " +num1+" - "+num2+" = "+sub);
         return sub;
     }
     public int plus(int num1, int num2) {
-        int plus = num1+ num2;
+        int plus = num1+num2;
         System.out.println("두 수의 합 : " +num1+" + "+num2+" = "+plus);
         return plus;
     }
