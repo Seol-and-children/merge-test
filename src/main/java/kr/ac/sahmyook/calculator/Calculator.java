@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Calculator {
 
     public int plus(int num1, int num2) {
-        System.out.println("두 수의 합 : " + plus(num1, num2));
+        int plus = num1+ num2;
+        System.out.println("두 수의 합 : " +num1+" + "+num2+" = "+plus);
         return num1 + num2;
     }
 
@@ -13,7 +14,7 @@ public class Calculator {
         int div=0;
         try {
             div = (num1/ num2);
-            System.out.println(num1+"/"+num2+"="+div); // 예외발생시 실행되지 않음
+            System.out.println("두 수의 나눗셈 : " +num1+" / "+num2+" = "+div); // 예외발생시 실행되지 않음
         }
         catch ( ArithmeticException e) {
             System.out.println("0으로는 나눗셈을 할 수 없습니다.");
