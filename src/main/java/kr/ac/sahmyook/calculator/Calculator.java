@@ -9,7 +9,7 @@ public class Calculator {
         Scanner sc = new Scanner(System.in);
         System.out.print("첫 번째 정수 : ");
         int num1 = sc.nextInt();
-        System.out.println("두 번째 정수 : ");
+        System.out.print("두 번째 정수 : ");
         int num2 = sc.nextInt();
         Calculator cal = new Calculator();
 
